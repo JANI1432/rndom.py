@@ -462,7 +462,7 @@ def free(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print('\r\033[1;32m[√]---------------------[JADU-OK]--------------------[√]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\nCOOKIE   : '+coki+'\n[√]---------------------------------------------------[√]')
+                print('\r\033[1;32m[√]---------------------[JANIOK]--------------------[√]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\nCOOKIE   : '+coki+'\n[√]---------------------------------------------------[√]')
 
                 cek_apk(session,coki)
 
@@ -480,7 +480,7 @@ def free(uid,pwx,tl):
 
                 Red = '\033[1;31m'
 
-                print(f'\r{Red}[×]--------------------[JADU-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
+                print(f'\r{Red}[×]--------------------[JANI-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
 
                 open('/sdcard/Jadugar-CP.txt', 'a').write(cid+' | '+ps+'\n')
 
@@ -498,7 +498,7 @@ def free(uid,pwx,tl):
 
                 print(f'\r{YELLOW}[TEMP-LOCK] '+cid+' | '+ps+'\033[1;97m')
 
-                open('/sdcard/Jadugar-2F.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/JANI-2F.txt', 'a').write(cid+' | '+ps+'\n')
 
                 twf.append(cid)
 
@@ -508,7 +508,7 @@ def free(uid,pwx,tl):
 
         loop+=1
 
-        sys.stdout.write(f'\r\33[1;37m[JADUGAR] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
+        sys.stdout.write(f'\r\33[1;37m[JANI] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
 
         sys.stdout.flush()
 
